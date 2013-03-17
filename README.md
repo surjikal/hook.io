@@ -1,22 +1,20 @@
+<img src="http://i.imgur.com/S2rgr.png" alt="hook.io logo"></img>
 
-<img src="http://i.imgur.com/S2rgr.png"></img>
+_hook.io is a versatile distributed event emitter built with node.js_
 
-    
-## hook.io is a versatile distributed event emitter built with node.js
+_Hooks are nodes which can seamlessly work together across any device or network to create self-healing meshes of i/o_
 
-## hooks are nodes which can seamlessly work together across any device or network to create self-healing meshes of i/o
+## Features
 
-## Features :
-
-- **Build applications intelligently by combining together small hook actors**
-- **Rapidly compose new functionality in a distributed and organized way**
-- **Dead simple Inter Process Communication built on-top of node's native [EventEmitter][2] class**
-- **Supports a large amount of common i/o sources out of the box**
-- **Additional i/o support from a rich community and network of user-created [hook libraries](https://github.com/hookio/hook.io/wiki/Hook.io-Libraries)**
-- **Built-in auto-discovery systems using http, tcp, mdns, and [hnet](http://github.com/hookio/hnet)**
-- **Hooks can exist on any device that supports JavaScript (cross-browser support via [socket.io][1])**
-- **Seamlessly manages the spawning and daemonizing additional hooks**
-- **Legacy applications can easily be extended to work with hook.io**
+- Build applications intelligently by combining together small hook actors
+- Rapidly compose new functionality in a distributed and organized way
+- Dead simple Inter Process Communication built on-top of node's native [EventEmitter][2] class
+- Supports a large amount of common i/o sources out of the box
+- Additional i/o support from a rich community and network of user-created [hook libraries](https://github.com/hookio/hook.io/wiki/Hook.io-Libraries)
+- Built-in auto-discovery systems using http, tcp, mdns, and [hnet](http://github.com/hookio/hnet)
+- Hooks can exist on any device that supports JavaScript (cross-browser support via [socket.io][1])
+- Seamlessly manages the spawning and daemonizing additional hooks
+- Legacy applications can easily be extended to work with hook.io
 
 # Installation
 
@@ -24,7 +22,7 @@
 
 # Usage
 
-If you are impatient and wish to jump straight to code, we have hundreds of code examples available here: [https://github.com/hookio/hook.io/tree/master/examples](https://github.com/hookio/hook.io/tree/master/examples)
+If you are impatient and wish to jump straight to code, we have hundreds of code examples available here: [https://github.com/surjikal/hook.io/tree/master/examples](https://github.com/surjikal/hook.io/tree/master/examples)
 
 - [using hook.io as a node.js script or as the hook binary](#script-versus-binary)
 - [hook.io repl](#hook-repl)
@@ -75,7 +73,7 @@ Simply type:
 
 **Note:** This is only one, small, example.
 
-To see all other supported types of hook messaging ( including EventEmitter and Callback style ), see: [https://github.com/hookio/hook.io/tree/master/examples/messaging](https://github.com/hookio/hook.io/tree/master/examples/messaging)
+To see all other supported types of hook messaging ( including EventEmitter and Callback style ), see: [https://github.com/surjikal/hook.io/tree/master/examples/messaging](https://github.com/surjikal/hook.io/tree/master/examples/messaging)
 
 **hook a**
 
@@ -175,7 +173,7 @@ All tests are written with [vows](http:://vowsjs.org) and require that you link 
 
  - Email List: [http://groups.google.com/group/hookio][0]
  - Video Lessons: [http://youtube.com/maraksquires](http://youtube.com/maraksquires) ( [mirror](https://github.com/hookio/tutorials) )
- - Wiki Pages [https://github.com/hookio/hook.io/wiki/_pages](https://github.com/hookio/hook.io/wiki/_pages) 
+ - Wiki Pages [https://github.com/surjikal/hook.io/wiki/_pages](https://github.com/surjikal/hook.io/wiki/_pages) 
  - [hook.io for dummies](http://ejeklint.github.com/2011/09/23/hook.io-for-dummies-part-1-overview/)
  - [Distribute Node.js Apps with hook.io: ][6]
  - #nodejitsu on irc.freenode.net
